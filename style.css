@@ -60,6 +60,8 @@
 .body{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 60%;
 }
 .cloudy{
     display: flex;
@@ -90,6 +92,7 @@
     justify-content: center;
     flex-direction: column;
     width: 30%;
+    height: 100%;
 }
 .day-list{
     display: flex;
@@ -152,6 +155,7 @@
     margin-left: 20px;
     margin-top: 20px;
     width: 40%;
+    height: 100%;
 }
 .arab{
     height: 250px;
@@ -231,12 +235,76 @@
     display: flex;
     margin-right: 60px;
 }
-/* @media only screen and (max-width: 1200px){
-    .forecast{
+@media only screen and (max-width: 425px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .top-div{
+        
+    }
+    .location{
+        margin-top: 20px;
+       
+    }
+    .avatar{
+        margin: 0;
+    }
+    .float-left{
+        position: initial;
+        height: 200px;
+        width: 100%;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .cloudy{
+        width: 50%;
+        height: 100%;
+    }
+    .below{
+        width: 50%;
+        
+    }
+    .body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .forecast,.places,.reviews{
+        width: 100%;
+    }
+    .leftf{
+        display: flex;
+        margin-left: 20px;
+    }
+    .day-list{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .days{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        height: 130px;
+    }
+    .leftf i{
+        margin-top: 10%;
+        margin-right: 70%;
+        font-size: 2.5rem;
+    }
+    .art{
+        margin-bottom: 20px;
+        height: 40%;
+    }
+    .fon{
+        height: 60%;
+    }
+    .in-r{
         width: 30%;
+        align-items: center;
+        justify-content: center;
     }
-    .places{
-        width: 40%;
+    .inner{
+        margin-top: 20px;
     }
-    
-} */
+}
