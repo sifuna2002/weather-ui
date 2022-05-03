@@ -1,0 +1,29 @@
+.top-div{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 40px;
+    background-image: url("./assets/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    margin-left: 10%;
+    margin-top: 40px;;
+    position: inherit;
+    color:	#800080;
+}
+.location i{
+    margin-top: 5px;
+    font-size: 2rem;
+}
+.texts{
+    color:rgb(197, 202, 207);
+    margin-left: 10px;
+}
