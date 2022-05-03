@@ -89,12 +89,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
 }
 .day-list{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 100%;
 }
 .days{
     display: flex;
@@ -102,7 +103,7 @@
     justify-content: space-between;
     flex-direction: row;
     height: 70px;
-    width: 190px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 15px;
     background-color: #f2eaf2;
@@ -148,14 +149,15 @@
 .places{
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-top: 20px;
+    width: 40%;
 }
 .arab{
     height: 250px;
-    width: 150px;
+    width: 100%;
     color: #fff;
-    font-weight: bold;
+
     border-radius: 15px;
     background-image: url("./assets/bg4.jpg");
     background-position: center;
@@ -175,6 +177,7 @@
 .reviews{
     display: flex;
     flex-direction: column;
+    width: 30%;
     margin-left: 20px;
     margin-top: 20px;
     justify-content: space-evenly;
@@ -184,7 +187,7 @@
 }
 .art{
     height: 70px;
-    width: 130px;
+    width: 100%;
     border-radius: 30px;
     background-image: url("./assets/bg5.jpg");
     background-position: center;
@@ -193,7 +196,8 @@
 }
 .fon{
     height: 150px;
-    width: 130px;
+    overflow: hidden;
+    width: 100%;
     border-radius: 30px;
     background-image: url("./assets/bg6.jpg");
     background-position: center;
@@ -203,7 +207,7 @@
     justify-content: space-between;
 }
 .in-r{
-    width: 50px;
+    width: 70px;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -215,3 +219,24 @@
     color:#fff;
     font-size: 30px;
 }
+.inner{
+    color: #fff;
+}
+.fon .inner{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+.art .inner{
+    display: flex;
+    margin-right: 60px;
+}
+/* @media only screen and (max-width: 1200px){
+    .forecast{
+        width: 30%;
+    }
+    .places{
+        width: 40%;
+    }
+    
+} */
