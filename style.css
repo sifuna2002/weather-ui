@@ -12,12 +12,15 @@
 }
 .location{
     display: flex;
+    justify-content: space-around;
     width: 100%;
-    margin: 10px;
-    margin-left: 10%;
     margin-top: 40px;;
     position: inherit;
     color:	#800080;
+}
+.leftl{
+    display: flex;
+    margin-left: 50px;
 }
 .location i{
     margin-top: 5px;
@@ -26,4 +29,116 @@
 .texts{
     color:rgb(197, 202, 207);
     margin-left: 10px;
+}
+.texts h6{
+    color: #979197;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius:100%;
+    margin-left:40%;
+    background-color: rgb(34, 171, 155); 
+}
+.avatar i{
+    margin: 0;
+    padding: 0;
+}
+.float-left{
+    display: flex;
+    position: absolute;
+    left: 5px;
+    top: 100px;
+    height: 150px;
+    flex-direction: column;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #742d74;
+}
+.cloudy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #300430;
+}
+.cloudy i{
+    font-size: 2rem;
+}
+.below{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.below span{
+    margin-bottom: 30px;
+}
+.forecast{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+}
+.day-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70px;
+    width: 190px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #f2eaf2;
+}
+.leftf{
+    display: flex;
+    margin-left: 10px;
+}
+.leftf i{
+    margin-top: 10%;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.frid{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    line-height: 10px;
+}
+.rightd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    border-radius: 15px;
+    background-color: #947394;
+}
+.dark{
+    background-color: #830e83;
+}
+.frid p{
+    color:gray;
+    font-size: 14px;
+}
+.frid .bold{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
 }
