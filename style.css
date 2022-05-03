@@ -3,7 +3,6 @@
     overflow: hidden;
     height: 250px;
     border-radius: 20px;
-    background-color: aqua;
     margin-top: 40px;
     background-image: url("./assets/bg2.jpg");
     background-position: center;
@@ -57,6 +56,10 @@
     width: 100px;
     border-radius: 30px;
     background-color: #742d74;
+}
+.body{
+    display: flex;
+    flex-direction: row;
 }
 .cloudy{
     display: flex;
@@ -141,4 +144,74 @@
     font-size: 14px;
     font-weight: bold;
     color: black;
+}
+.places{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.arab{
+    height: 250px;
+    width: 150px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-image: url("./assets/bg4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.inner p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.top-reviews{
+    color:gray;
+}
+.art{
+    height: 70px;
+    width: 130px;
+    border-radius: 30px;
+    background-image: url("./assets/bg5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fon{
+    height: 150px;
+    width: 130px;
+    border-radius: 30px;
+    background-image: url("./assets/bg6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.in-r{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #742d74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 30px;
 }
