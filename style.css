@@ -189,6 +189,11 @@
 }
 .top-reviews{
     color:gray;
+    display: flex;
+}
+.top-reviews i{
+    color: #947394;
+    margin-right: 5px;
 }
 .art{
     height: 70px;
